@@ -105,3 +105,26 @@ footer i:hover {
     height: 3px;
     background: rgb(255, 206, 206);
 }
+
+@media screen and (max-width: 550px) {
+    .background {
+        background-size: cover;
+    }
+
+    .hero h1 {
+        font-size: 60px;
+    }
+    
+    .hero span {
+        font-size: large;
+    }
+
+    .contacts {
+        width: 50%;
+        left: 25%;
+    }
+
+    .contacts a {
+        margin: auto;
+    }
+}
