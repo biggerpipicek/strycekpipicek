@@ -106,13 +106,13 @@ footer i:hover {
     background: rgb(255, 206, 206);
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
     .background {
         background-size: cover;
     }
 
     .hero h1 {
-        font-size: 45px;
+        font-size: 40px;
     }
     
     .hero span {
